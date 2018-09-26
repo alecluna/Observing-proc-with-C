@@ -1,0 +1,65 @@
+What is the CPU type and model? 
+
+cat /proc/cpuinfo 
+
+Intel(R) Xeon(R) E5-2640 @ 2.5GHz 
+
+What version of the Linux kernel is being used? 
+
+cat /proc/version 
+
+Linux version 2.6.32-696.3.2.el6.i686 (mockbuild@c1bl.rdu2.centos.org) (gcc
+version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Jun 20 00:48:23
+UTC 2017 
+
+How long (in days, hours, and minutes) has it been since the system was last
+booted? 
+
+cat /proc/uptime 
+
+Boot time: 39469263.25 3511061.09 
+
+How much of the total CPU time has been spent executing in user mode? System
+mod 
+
+cat /proc/stat 
+
+cpu:  1181771148 4079404 73290516 14482250406 20960189 918771 2079333 0 0 
+
+User: 1181771148 
+
+System: 73290516  
+
+How much memory is configured into it? 
+
+cat /proc/meminfo 
+
+MemTotal:  4019168 kB 
+
+How much memory is currently available on it? 
+
+cat /proc/meminfo 
+
+MemFree: 1190412kB 
+
+How many disks read/write requests have been made? 
+
+cat /proc/diskstats 
+
+Reads completed: 50033836  
+
+Writes completed: 58610006 
+
+How many context switches has the kernel performed? 
+
+cat /proc/stat 
+
+ctxt 16562032536 
+
+How many processes have been created since the system was booted? 
+
+cat /proc/stat 
+
+processes 152436265 
+
+ 
